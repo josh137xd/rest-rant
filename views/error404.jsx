@@ -6,7 +6,13 @@ function error404 () {
       <Def>
           <main>
               <h1>404: PAGE NOT FOUND</h1>
-              <p>Oops, sorry, we can't find this page!</p>
+              <div>
+                <img src="/images/404-img.jpg" alt="404 img" />
+                </div>
+               <div>
+                Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/photos/jicxB6ooyeU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                 </div>
+                 <p>Oops, sorry, we can't find this page!</p>
           </main>
       </Def>
     )
