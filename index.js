@@ -2,6 +2,7 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
+app.use(express.urlencoded({ extended: true }))
 
 // express settings
 app.set('views', __dirname + '/views')
