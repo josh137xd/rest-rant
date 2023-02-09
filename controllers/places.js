@@ -23,7 +23,8 @@ router.get('/:id', (req, res) => {
       res.render('places/show', { place: places[id], id })
     }
   })
-router.delete('/:id', (req, res) => {
+  
+  router.delete('/:id', (req, res) => {
     let id = Number(req.params.id)
     if (isNaN(id)) {
       res.render('error404')
@@ -36,6 +37,7 @@ router.delete('/:id', (req, res) => {
       res.redirect('/places')
     }
   })
+  
   
 router.post('/', (req, res) => {
     if (!req.body.pic) {
